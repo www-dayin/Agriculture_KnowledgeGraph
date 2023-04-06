@@ -6,7 +6,7 @@ class Neo4j():
 		print("create neo4j class ...")
 
 	def connectDB(self):
-		self.graph = Graph("http://localhost:7474", username="neo4j", password="123456")
+		self.graph = Graph("http://localhost:7474", auth=("neo4j","091198"))
 
 	def matchItembyTitle(self,value):
 

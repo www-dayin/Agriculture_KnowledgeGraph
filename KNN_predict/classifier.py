@@ -7,6 +7,7 @@ from functools import cmp_to_key
 from math import log
 from math import sqrt
 
+
 class Node:
 	simi = None
 	label = None

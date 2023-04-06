@@ -3,7 +3,7 @@ def merge():
 	s = set()
 	for i in range(10):
 		filename = 'table'+str(i)+".txt"
-		file_object = open('table'+str(i)+".txt",'r').read()
+		file_object = open(filename,'r').read()
 		table = file_object.split()
 		for c in table:
 			s.add(c)
